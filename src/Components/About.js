@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import abou1 from '../assests/The_Common_Wanderer_sri_lanka_photos-38.jpg'
+import about2 from '../assests/tourism (1).jpg'
+
 class About extends Component {
     render() {
         return (
@@ -9,8 +12,8 @@ class About extends Component {
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="about-image">
-                            <img src="assets/img/about/1.jpg" class="shadow" alt="image"/>
-                            <img src="assets/img/about/2.jpg" class="shadow" alt="image"/>
+                            <img src={abou1} class="shadow" alt="image"/>
+                            <img src={about2} class="shadow" alt="image"/>
                         </div>
                     </div>
 
@@ -19,7 +22,8 @@ class About extends Component {
                             <span class="sub-title">About Us</span>
                             <h2>Learn New Skills to go ahead for Your Career</h2>
                             <h6>We can support student forum 24/7 for national and international students.</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia laborum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia laborum.</p>
 
                             <div class="features-text">
                                 <h5><i class='bx bx-planet'></i>A place where you can achieve</h5>

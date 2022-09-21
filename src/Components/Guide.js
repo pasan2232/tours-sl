@@ -1,277 +1,325 @@
-import React from "react";
+import React, { Component } from 'react';
 
+import human from '../assests/unknown.jpg'
 
-
-const Home = () => {
-
-
-    
-
-  return (
-    <div>
-
-
-
-
-      
-     
-
-
-        <section class="gallery-area pt-100 pb-70">
+class Guide extends Component {
+    render() {
+        return (
+            <div>
+                <section class="courses-area ptb-100">
             <div class="container">
-                <div class="row">
-                   
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-gallery-item mb-30">
-                            <img src="" alt="Gallery Image" data-original="assets/img/gallery/8.jpg"/>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-gallery-item mb-30">
-                            <img src="" alt="Gallery Image" data-original="assets/img/gallery/9.jpg"/>
-                        </div>
-                    </div>
+                
+            <div class="section-title">
+                    <span class="sub-title">Ayubowan!</span>
+                    <h2>Welcome to Sri Lanka</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-            </div>
-        </section>
 
 
-
-        <section class="blog-area ptb-100">
-            <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
-                        <div class="single-blog-post mb-30">
-                            <div class="post-image">
-                                <a href="single-blog.html" class="d-block">
-                                    <img src="" alt="image"/>
-                                </a>
-    
-                                <div class="tag">
-                                    <a href="#">Learning</a>
+                        <div class="single-courses-box mb-30">
+                            <div class="courses-image">
+                                <a href="single-courses.html" class="d-block"><img src={human} alt="image"/></a>
+
+                                <div class="courses-tag">
+                                    <a href="#" class="d-block">Business</a>
                                 </div>
                             </div>
-    
-                            <div class="post-content">
-                                <ul class="post-meta">
-                                    <li class="post-author">
-                                        <img src="assets/img/user1.jpg" class="d-inline-block rounded-circle mr-2" alt="image"/>
-                                        By: <a href="#" class="d-inline-block">Steven Smith</a>
+
+                            <div class="courses-content">
+                                <div class="course-author d-flex align-items-center">
+                                    <img src="assets/img/user1.jpg" class="rounded-circle mr-2" alt="image"/>
+                                    <span>Steven Smith</span>
+                                </div>
+
+                                <h3><a href="single-courses.html" class="d-inline-block">Raque Professional IT Expert Certificate Course</a></h3>
+
+                                <div class="courses-rating">
+                                    <div class="review-stars-rated">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                    </div>
+
+                                    <div class="rating-total">
+                                        5.0 (1 rating)
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="courses-box-footer">
+                                <ul>
+                                    <li class="students-number">
+                                        <i class='bx bx-user'></i> 10 students
                                     </li>
-                                    <li><a href="#">August 30, 2021</a></li>
+
+                                    <li class="courses-lesson">
+                                        <i class='bx bx-book-open'></i> 6 lessons
+                                    </li>
+
+                                    <li class="courses-price">
+                                        Free
+                                    </li>
                                 </ul>
-                                <h3><a href="single-blog.html" class="d-inline-block">World largest elephant toothpaste experiment in 2021</a></h3>
-                                <a href="#" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6">
-                        <div class="single-blog-post mb-30">
-                            <div class="post-image">
-                                <a href="single-blog.html" class="d-block">
-                                    <img src="" alt="image"/>
-                                </a>
+                        <div class="single-courses-box mb-30">
+                            <div class="courses-image">
+                                <a href="single-courses.html" class="d-block"><img src={human} alt="image"/></a>
 
-                                <div class="tag">
-                                    <a href="#">Education</a>
+                                <div class="courses-tag">
+                                    <a href="#" class="d-block">Design</a>
                                 </div>
                             </div>
 
-                            <div class="post-content">
-                                <ul class="post-meta">
-                                    <li class="post-author">
-                                        <img src="assets/img/user2.jpg" class="d-inline-block rounded-circle mr-2" alt="image"/>
-                                        By: <a href="#" class="d-inline-block">Lina D'Souja</a>
+                            <div class="courses-content">
+                                <div class="course-author d-flex align-items-center">
+                                    <img src="assets/img/user2.jpg" class="rounded-circle mr-2" alt="image"/>
+                                    <span>Sarah Taylor</span>
+                                </div>
+
+                                <h3><a href="single-courses.html" class="d-inline-block">Certified Graphic Design with Free Project Course</a></h3>
+
+                                <div class="courses-rating">
+                                    <div class="review-stars-rated">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star-half'></i>
+                                    </div>
+
+                                    <div class="rating-total">
+                                        4.5 (2 rating)
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="courses-box-footer">
+                                <ul>
+                                    <li class="students-number">
+                                        <i class='bx bx-user'></i> 15 students
                                     </li>
-                                    <li><a href="#">August 29, 2021</a></li>
+
+                                    <li class="courses-lesson">
+                                        <i class='bx bx-book-open'></i> 10 lessons
+                                    </li>
+
+                                    <li class="courses-price">
+                                        $250
+                                    </li>
                                 </ul>
-                                <h3><a href="single-blog.html" class="d-inline-block">Most Popular Education Posts Of The Week 20-26 Aug</a></h3>
-                                <a href="#" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6">
-                        <div class="single-blog-post mb-30">
-                            <div class="post-image">
-                                <a href="single-blog.html" class="d-block">
-                                    <img src="" alt="image"/>
-                                </a>
+                        <div class="single-courses-box mb-30">
+                            <div class="courses-image">
+                                <a href="single-courses.html" class="d-block"><img src={human} alt="image"/></a>
 
-                                <div class="tag">
-                                    <a href="#">Management</a>
+                                <div class="courses-tag">
+                                    <a href="#" class="d-block">Development</a>
                                 </div>
                             </div>
 
-                            <div class="post-content">
-                                <ul class="post-meta">
-                                    <li class="post-author">
-                                        <img src="assets/img/user3.jpg" class="d-inline-block rounded-circle mr-2" alt="image"/>
-                                        By: <a href="#" class="d-inline-block">David Malan</a>
+                            <div class="courses-content">
+                                <div class="course-author d-flex align-items-center">
+                                    <img src="assets/img/user3.jpg" class="rounded-circle mr-2" alt="image"/>
+                                    <span>James Anderson</span>
+                                </div>
+
+                                <h3><a href="single-courses.html" class="d-inline-block">Photography Crash Course for Photographer</a></h3>
+
+                                <div class="courses-rating">
+                                    <div class="review-stars-rated">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bx-star'></i>
+                                    </div>
+
+                                    <div class="rating-total">
+                                        4.0 (1 rating)
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="courses-box-footer">
+                                <ul>
+                                    <li class="students-number">
+                                        <i class='bx bx-user'></i> 5 students
                                     </li>
-                                    <li><a href="#">August 28, 2021</a></li>
+
+                                    <li class="courses-lesson">
+                                        <i class='bx bx-book-open'></i> 5 lessons
+                                    </li>
+
+                                    <li class="courses-price">
+                                        $150
+                                    </li>
                                 </ul>
-                                <h3><a href="single-blog.html" class="d-inline-block">How to enhance education quality management system</a></h3>
-                                <a href="#" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6">
-                        <div class="single-blog-post mb-30">
-                            <div class="post-image">
-                                <a href="single-blog.html" class="d-block">
-                                    <img src="" alt="image"/>
-                                </a>
+                        <div class="single-courses-box mb-30">
+                            <div class="courses-image">
+                                <a href="single-courses.html" class="d-block"><img src={human} alt="image"/></a>
 
-                                <div class="tag">
-                                    <a href="#">Ideas</a>
+                                <div class="courses-tag">
+                                    <a href="#" class="d-block">Language</a>
                                 </div>
                             </div>
 
-                            <div class="post-content">
-                                <ul class="post-meta">
-                                    <li class="post-author">
-                                        <img src="assets/img/user5.jpg" class="d-inline-block rounded-circle mr-2" alt="image"/>
-                                        By: <a href="#" class="d-inline-block">David Warner</a>
+                            <div class="courses-content">
+                                <div class="course-author d-flex align-items-center">
+                                    <img src="assets/img/user4.jpg" class="rounded-circle mr-2" alt="image"/>
+                                    <span>Liam King</span>
+                                </div>
+
+                                <h3><a href="single-courses.html" class="d-inline-block">Web Design for Developing Technology with Joy</a></h3>
+
+                                <div class="courses-rating">
+                                    <div class="review-stars-rated">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                    </div>
+
+                                    <div class="rating-total">
+                                        5.0 (1 rating)
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="courses-box-footer">
+                                <ul>
+                                    <li class="students-number">
+                                        <i class='bx bx-user'></i> 10 students
                                     </li>
-                                    <li><a href="#">August 27, 2021</a></li>
+
+                                    <li class="courses-lesson">
+                                        <i class='bx bx-book-open'></i> 6 lessons
+                                    </li>
+
+                                    <li class="courses-price">
+                                        <span>$200</span>
+                                        $195
+                                    </li>
                                 </ul>
-                                <h3><a href="single-blog.html" class="d-inline-block">Global education: Ideas for the way move forward</a></h3>
-                                <a href="#" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6">
-                        <div class="single-blog-post mb-30">
-                            <div class="post-image">
-                                <a href="single-blog.html" class="d-block">
-                                    <img src="" alt="image"/>
-                                </a>
+                        <div class="single-courses-box mb-30">
+                            <div class="courses-image">
+                                <a href="single-courses.html" class="d-block"><img src={human} alt="image"/></a>
 
-                                <div class="tag">
-                                    <a href="#">Workforce</a>
+                                <div class="courses-tag">
+                                    <a href="#" class="d-block">Management</a>
                                 </div>
                             </div>
 
-                            <div class="post-content">
-                                <ul class="post-meta">
-                                    <li class="post-author">
-                                        <img src="assets/img/user6.jpg" class="d-inline-block rounded-circle mr-2" alt="image"/>
-                                        By: <a href="#" class="d-inline-block">Olivar Waise</a>
+                            <div class="courses-content">
+                                <div class="course-author d-flex align-items-center">
+                                    <img src="assets/img/user5.jpg" class="rounded-circle mr-2" alt="image"/>
+                                    <span>Lina D'Souza</span>
+                                </div>
+
+                                <h3><a href="single-courses.html" class="d-inline-block">Information About UI/UX Design Degree</a></h3>
+
+                                <div class="courses-rating">
+                                    <div class="review-stars-rated">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                    </div>
+
+                                    <div class="rating-total">
+                                        5.0 (1 rating)
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="courses-box-footer">
+                                <ul>
+                                    <li class="students-number">
+                                        <i class='bx bx-user'></i> 10 students
                                     </li>
-                                    <li><a href="#">August 26, 2021</a></li>
+
+                                    <li class="courses-lesson">
+                                        <i class='bx bx-book-open'></i> 6 lessons
+                                    </li>
+
+                                    <li class="courses-price">
+                                        $178
+                                    </li>
                                 </ul>
-                                <h3><a href="single-blog.html" class="d-inline-block">New report reimagines the broader education workforce</a></h3>
-                                <a href="#" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6">
-                        <div class="single-blog-post mb-30">
-                            <div class="post-image">
-                                <a href="single-blog.html" class="d-block">
-                                    <img src="" alt="image"/>
-                                </a>
+                        <div class="single-courses-box mb-30">
+                            <div class="courses-image">
+                                <a href="single-courses.html" class="d-block"><img src={human} alt="image"/></a>
 
-                                <div class="tag">
-                                    <a href="#">Education</a>
+                                <div class="courses-tag">
+                                    <a href="#" class="d-block">Photography</a>
                                 </div>
                             </div>
 
-                            <div class="post-content">
-                                <ul class="post-meta">
-                                    <li class="post-author">
-                                        <img src="assets/img/user2.jpg" class="d-inline-block rounded-circle mr-2" alt="image"/>
-                                        By: <a href="#" class="d-inline-block">Lina D'Souja</a>
-                                    </li>
-                                    <li><a href="#">August 29, 2021</a></li>
-                                </ul>
-                                <h3><a href="single-blog.html" class="d-inline-block">What’s Going On in This Picture? | Jan. 13, 2021</a></h3>
-                                <a href="#" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-blog-post mb-30">
-                            <div class="post-image">
-                                <a href="single-blog.html" class="d-block">
-                                    <img src="" alt="image"/>
-                                </a>
-    
-                                <div class="tag">
-                                    <a href="#">Learning</a>
+                            <div class="courses-content">
+                                <div class="course-author d-flex align-items-center">
+                                    <img src="assets/img/user6.jpg" class="rounded-circle mr-2" alt="image"/>
+                                    <span>David Warner</span>
                                 </div>
-                            </div>
-    
-                            <div class="post-content">
-                                <ul class="post-meta">
-                                    <li class="post-author">
-                                        <img src="assets/img/user1.jpg" class="d-inline-block rounded-circle mr-2" alt="image"/>
-                                        By: <a href="#" class="d-inline-block">Steven Smith</a>
-                                    </li>
-                                    <li><a href="#">August 30, 2021</a></li>
-                                </ul>
-                                <h3><a href="single-blog.html" class="d-inline-block">Connecting Math and Science to Reading and Writing</a></h3>
-                                <a href="#" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-blog-post mb-30">
-                            <div class="post-image">
-                                <a href="single-blog.html" class="d-block">
-                                    <img src="" alt="image"/>
-                                </a>
+                                <h3><a href="single-courses.html" class="d-inline-block">Photography Photo modify and Beautiful</a></h3>
 
-                                <div class="tag">
-                                    <a href="#">Education</a>
+                                <div class="courses-rating">
+                                    <div class="review-stars-rated">
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                    </div>
+
+                                    <div class="rating-total">
+                                        5.0 (1 rating)
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="post-content">
-                                <ul class="post-meta">
-                                    <li class="post-author">
-                                        <img src="assets/img/user2.jpg" class="d-inline-block rounded-circle mr-2" alt="image"/>
-                                        By: <a href="#" class="d-inline-block">Lina D'Souja</a>
+                            <div class="courses-box-footer">
+                                <ul>
+                                    <li class="students-number">
+                                        <i class='bx bx-user'></i> 10 students
                                     </li>
-                                    <li><a href="#">August 29, 2021</a></li>
-                                </ul>
-                                <h3><a href="single-blog.html" class="d-inline-block">How to Introduce Meditation to the High School</a></h3>
-                                <a href="#" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-blog-post mb-30">
-                            <div class="post-image">
-                                <a href="single-blog.html" class="d-block">
-                                    <img src="" alt="image"/>
-                                </a>
-
-                                <div class="tag">
-                                    <a href="#">Management</a>
-                                </div>
-                            </div>
-
-                            <div class="post-content">
-                                <ul class="post-meta">
-                                    <li class="post-author">
-                                        <img src="assets/img/user3.jpg" class="d-inline-block rounded-circle mr-2" alt="image"/>
-                                        By: <a href="#" class="d-inline-block">David Malan</a>
+                                    <li class="courses-lesson">
+                                        <i class='bx bx-book-open'></i> 6 lessons
                                     </li>
-                                    <li><a href="#">August 28, 2021</a></li>
+
+                                    <li class="courses-price">
+                                        $500
+                                    </li>
                                 </ul>
-                                <h3><a href="single-blog.html" class="d-inline-block">Tools for Creating Digital Student Portfolios</a></h3>
-                                <a href="#" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
                     </div>
@@ -280,60 +328,9 @@ const Home = () => {
                 </div>
             </div>
         </section>
-
-
-
-
-
-        <section class="about-area pt-100">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="about-content left-content">
-                            <span class="sub-title">About Us</span>
-                            <h2>Learn New Skills to go ahead for Your Career</h2>
-                            <h6>We can support student forum 24/7 for national and international students.</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia laborum.</p>
-
-                            <div class="features-text">
-                                <h5><i class='bx bx-planet'></i>A place where you can achieve</h5>
-                                <p>Education encompasses both the teaching and learning of knowledge, proper conduct, and technical competency.</p>
-                            </div>
-
-                            <div class="signature">
-                                <img src="assets/img/signature.png" alt="image"/>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-12">
-                        <div class="about-right-image">
-                            <img src="" alt="image"/>
-                            <img src="{a2}" alt="image"/>
-
-                            <div class="text-box">
-                                <div class="inner">
-                                    Trusted By
-                                    <span>75K+</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
+        );
+    }
+}
 
-            <div id="particles-js-circle-bubble-4"></div>
-        </section>
-
-
-
-        
-
-
-
-
-    </div>
-  );
-};
-
-export default Home;
+export default Guide;

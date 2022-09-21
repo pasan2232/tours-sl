@@ -79,7 +79,7 @@ const Footer = () => {
             <div class="logo">
                 <a href="index.html" class="d-inline-block"><img src="assets/img/logo.png" alt="image"/></a>
             </div>
-            <p><i class='bx bx-copyright'></i>2021 <a href="index.html" target="_blank">Raque</a> Designed By <a href="https://envytheme.com/" target="_blank">EnvyTheme</a> | All rights reserved.</p>
+            <p><i class='bx bx-copyright'></i>2021 <a href="index.html" target="_blank"></a> Designed By <a href="https://envytheme.com/" target="_blank">aaaaaa</a> | All rights reserved.</p>
         </div>
     </div>
 </footer>
