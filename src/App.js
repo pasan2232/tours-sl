@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter  , Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -10,27 +10,20 @@ import CarRents from './Components/CarRents';
 import Guide from './Components/Guide';
 import Destination from './Components/Destinations';
 
-class App extends Component {
-  render() {
-    return (
+
+
+function App() {
+  return (
+    <div className='app'>
       <BrowserRouter>
-      <div className='container'>
-        <Header/>
-     
-          <Home/><hr/>
-          <Destination/><hr/>
-          <Contact/><hr/>
-          <About/><hr/>
-          <Guide/><hr/>
-          <CarRents/><hr/>
-
-
-        <Footer/>
-        
-      </div>
+      <Header/>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
       </BrowserRouter>
-    );
-  }
+    </div>
+  )
 }
 
 export default App;
