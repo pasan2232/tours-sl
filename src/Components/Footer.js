@@ -1,14 +1,9 @@
-import React, { useContext } from "react";
+import React, { Component } from 'react';
 
-
-
-const Footer = () => {
- 
-
- 
-
-  return (
-    <footer class="footer-area">
+class Footer extends Component {
+    render() {
+        return (
+            <footer class="footer-area">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -83,7 +78,8 @@ const Footer = () => {
         </div>
     </div>
 </footer>
-  );
-};
+        );
+    }
+}
 
 export default Footer;

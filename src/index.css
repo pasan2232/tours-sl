@@ -34917,7 +34917,8 @@ textarea.form-control-lg {
   .navbar-expand-lg .navbar-collapse {
     -webkit-box-shadow: 0px 10px 30px rgba(83, 88, 93, 0.4);
             box-shadow: 0px 10px 30px rgba(83, 88, 93, 0.4);
-    position: absolute;
+    position: inherit;
+    text-align: center;
     left: 0;
     right: 0;
     top: 100%;

@@ -138,7 +138,8 @@ national parks, ports and harbours, and pristine clear waters offer a mellow exp
 
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="services-btn">
-                            <a href="register.html" class="default-btn"><i class='bx bx-user-circle icon-arrow before'></i><span class="label">Get Started Today</span><i class="bx bx-user-circle icon-arrow after"></i></a>
+                            <a href="/destinations" class="default-btn"><i class='bx bx-user-circle icon-arrow before'></i><span class="label">Your Next Destination</span>
+                            <i class="bx bx-user-circle icon-arrow after"></i></a>
                         </div>
                     </div>
                 </div>
