@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+import FloatingWhatsApp from 'react-floating-whatsapp'
+import avatar from '../assests/avatar.jpeg'
 
 import cover from '../assests/yala-natinal-park-sri-lanka-scaled.jpg';
 import cover2 from '../assests/ella-4-sri-lanka (1).jpg'
+
+
 
 class Home extends Component {
 
@@ -47,7 +51,7 @@ national parks, ports and harbours, and pristine clear waters offer a mellow exp
                         
                         
                     </div>
-
+                   
                     <div class="col-lg-6 col-md-12">
                         <div class="about-right-image">
                             <img src={cover} alt="image"/>
@@ -66,6 +70,10 @@ national parks, ports and harbours, and pristine clear waters offer a mellow exp
                 </div>
             </div>
         </section>
+
+
+
+
         
         <section class="services-area ptb-100">
             <div class="container">
@@ -144,6 +152,16 @@ national parks, ports and harbours, and pristine clear waters offer a mellow exp
                     </div>
                 </div>
             </div>
+            <FloatingWhatsApp
+                                phoneNumber="+94711308121"
+                                        accountName="Sadew Sanjula Anuhas"
+                                        allowClickAway
+                                        notification
+                                        
+                                        notificationSound
+                                        avatar={avatar}
+                                        statusMessage=""
+                                        chatMessage="Hi, How can i help you?"/>
 
             <div class="divider bg-e4feff"></div>
         </section>

@@ -3,10 +3,15 @@ import React, { Component } from 'react';
 import abou1 from '../assests/The_Common_Wanderer_sri_lanka_photos-38.jpg'
 import about2 from '../assests/tourism (1).jpg'
 
+import FloatingWhatsApp from 'react-floating-whatsapp'
+import avatar from '../assests/avatar.jpeg'
+
+
 class About extends Component {
     render() {
         return (
             <div>
+
             <section class="about-area ptb-100">
             <div class="container">
                 <div class="row align-items-center">
@@ -16,6 +21,7 @@ class About extends Component {
                             <img src={about2} class="shadow" alt="image"/>
                         </div>
                     </div>
+            
 
                     <div class="col-lg-6 col-md-12">
                         <div class="about-content">
@@ -30,7 +36,7 @@ class About extends Component {
                                 <p>Education encompasses both the teaching and learning of knowledge, proper conduct, and technical competency.</p>
                             </div>
 
-                            <a href="courses-2-columns-style-1.html" class="default-btn"><i class='bx bx-move-horizontal icon-arrow before'></i><span class="label">View Courses</span><i class="bx bx-move-horizontal icon-arrow after"></i></a>
+                            <a href="/destinations" class="default-btn"><i class='bx bx-move-horizontal icon-arrow before'></i><span class="label">Explore Sri Lanka</span><i class="bx bx-move-horizontal icon-arrow after"></i></a>
                         </div>
                     </div>
                 </div>
@@ -52,7 +58,7 @@ class About extends Component {
                   </div>
 
                   <h3>Email Here</h3>
-                  <p><a href="mailto:info@lyceum.ac.lk">info@lyceum.ac.lk</a></p><br/>
+                  <p><a href="mailto:dilshan.kumara34@gmail.com">dilshan.kumara34@gmail.com</a></p><br/>
                   
               </div>
           </div>
@@ -64,7 +70,7 @@ class About extends Component {
                   </div>
 
                   <h3>Location Here</h3>
-                  <p><a href="#" target="_blank">3/1,Raymond Road,Nugegoda,<br/>Sri Lanka</a></p>
+                  <p><a  target="_blank">No 901/3, Galle Road, Katukurunda,<br/>Kaluthara, Sri Lanka</a></p>
               </div>
           </div>
 
@@ -75,14 +81,23 @@ class About extends Component {
                   </div>
 
                   <h3>Call Here</h3>
-                  <p><a href="tel:+94 775214785">+94 775214785</a></p>
-                  <p><a href="tel:+94 113698752">+94 113698752</a></p>
+                  <p><a href="tel:+94777909154">0777909154</a></p>
+                  <p><a href="tel:+94711308121">0711308121</a></p>
               </div>
           </div>
       </div>
   </div>
 
-  <div id="particles-js-circle-bubble-2"></div>
+  <FloatingWhatsApp
+                                phoneNumber="+94711308121"
+                                        accountName="Sadew Sanjula Anuhas"
+                                        allowClickAway
+                                        notification
+                                        
+                                        notificationSound
+                                        avatar={avatar}
+                                        statusMessage=""
+                                        chatMessage="Hi, How can i help you?"/>
 </section>
 
         </div>

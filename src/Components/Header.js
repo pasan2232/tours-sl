@@ -12,7 +12,7 @@ class Header extends Component {
           <Navbar bg="light" expand="lg">
             <Container>
               <LinkContainer to="/">
-                <Navbar.Brand> Lyceum Farm Marketplace </Navbar.Brand>
+                <Navbar.Brand> <b>SADEW TOURS</b> </Navbar.Brand>
               </LinkContainer>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
@@ -24,7 +24,7 @@ class Header extends Component {
                     <Nav.Link>Car Rents</Nav.Link>
                   </LinkContainer>
                   <LinkContainer to="/guides">
-                    <Nav.Link>Tour Guide</Nav.Link>
+                    <Nav.Link>Tours</Nav.Link>
                   </LinkContainer>
                   <LinkContainer to="/contact">
                     <Nav.Link>Contact Us</Nav.Link>
@@ -35,6 +35,10 @@ class Header extends Component {
                 </Nav>
 
               </Navbar.Collapse>
+              
+              {/* <LinkContainer to="/">
+                <Navbar.Brand>  </Navbar.Brand>
+              </LinkContainer> */}
             </Container>
           </Navbar>
         </div>

@@ -12250,6 +12250,8 @@ My Account CSS
 .myAccount-profile .profile-content .social li {
   display: inline-block;
   margin-right: 2px;
+  margin-left: 21px;
+  
 }
 
 .myAccount-profile .profile-content .social li a {

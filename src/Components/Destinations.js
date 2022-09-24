@@ -1,9 +1,16 @@
 import React from "react";
 
+
+import FloatingWhatsApp from 'react-floating-whatsapp'
+import avatar from '../assests/avatar.jpeg'
+
 import Anu from '../assests/anu.jpg'
 import Kan from '../assests/kandy-sri-lanka-tooth-temple-776x502.jpg'
 import buddh from '../assests/sri-lanka-top-attractions-golden-temple-dambulla.jpg'
 import colo from '../assests/6346 (1).jpg'
+
+
+
 
 
 import nuwara from '../assests/destinations/nuwa eliya (1).jpg'
@@ -25,6 +32,8 @@ const Destination = () => {
 
   return (
     <div>
+        
+
 
 <section class="courses-area ptb-100">
             <div class="container">
@@ -32,8 +41,10 @@ const Destination = () => {
             <div class="section-title">
                     <span class="sub-title">Ayubowan!</span>
                     <h2>Welcome to Sri Lanka</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>"Be universal in your love. You will see the universe to be the picture of your own being."<br/> ~ Sri Chinmoy ~</p>
                 </div>
+
+               
 
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
@@ -54,21 +65,17 @@ const Destination = () => {
 
                             <div class="courses-box-footer">
                                 <ul>
-                                    <li class="students-number">
-                                        <i class='bx bx-user'></i> 10 students
-                                    </li>
-
+                                   
                                     <li class="courses-lesson">
-                                        <i class='bx bx-book-open'></i> 6 lessons
+                                        <i class='bx bx-book-open'></i> Central Province
                                     </li>
 
-                                    <li class="courses-price">
-                                        Free
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
                     </div>
+                    
 
                     <div class="col-lg-4 col-md-6">
                         <div class="single-courses-item mb-30">
@@ -87,17 +94,12 @@ const Destination = () => {
 
                             <div class="courses-box-footer">
                                 <ul>
-                                    <li class="students-number">
-                                        <i class='bx bx-user'></i> 15 students
-                                    </li>
-
+                                   
                                     <li class="courses-lesson">
-                                        <i class='bx bx-book-open'></i> 10 lessons
+                                        <i class='bx bx-book-open'></i> Central Province
                                     </li>
 
-                                    <li class="courses-price">
-                                        $250
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -106,13 +108,13 @@ const Destination = () => {
                     <div class="col-lg-4 col-md-6">
                         <div class="single-courses-item mb-30">
                             <div class="courses-image">
-                                <a href="single-courses.html"  target="black" class="d-block"><img src={Anu} alt="image"/></a>
+                                <a href="https://www.google.com/maps/place/Ruwanweli+Maha+Seya/@8.3500293,80.3963687,17z/data=!4m12!1m6!3m5!1s0x3afcf596d16f1241:0xf412fa3b7a9f688d!2sRuwanweli+Maha+Seya!8m2!3d8.3500293!4d80.3963687!3m4!1s0x3afcf596d16f1241:0xf412fa3b7a9f688d!8m2!3d8.3500293!4d80.3963687"  target="black" class="d-block"><img src={Anu} alt="image"/></a>
                             </div>
 
                             <div class="courses-content">
                                 
 
-                                <h3><a href="single-courses.html"
+                                <h3><a href="https://www.google.com/maps/place/Ruwanweli+Maha+Seya/@8.3500293,80.3963687,17z/data=!4m12!1m6!3m5!1s0x3afcf596d16f1241:0xf412fa3b7a9f688d!2sRuwanweli+Maha+Seya!8m2!3d8.3500293!4d80.3963687!3m4!1s0x3afcf596d16f1241:0xf412fa3b7a9f688d!8m2!3d8.3500293!4d80.3963687"
                                 target="black" class="d-inline-block">Sacred City Of Anuradhapura</a></h3>
                                 <p>a UNESCO World Heritage Site located in the north central part of the Island was the first capital (5th century BC ? 9th century AD), the centre of the island’s Buddhist civilization and undoubtedly the grandest city of ancient Sri Lanka. 
                                     In antiquity and the interest, it is the equal of any ancient ‘buried city’ in the world. The oldest historically documented tree on earth (over 2,200 years old) ? The Sri Maha Bodhi, brought as a sapling of the tree under which the Buddha attained enlightenment.</p>
@@ -120,17 +122,12 @@ const Destination = () => {
 
                             <div class="courses-box-footer">
                                 <ul>
-                                    <li class="students-number">
-                                        <i class='bx bx-user'></i> 5 students
+                                   
+                                    <li class="courses-lesso">
+                                        <i class='bx bx-book-open'></i> North - Central Province
                                     </li>
 
-                                    <li class="courses-lesson">
-                                        <i class='bx bx-book-open'></i> 5 lessons
-                                    </li>
-
-                                    <li class="courses-price">
-                                        $150
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -140,14 +137,14 @@ const Destination = () => {
                     <div class="col-lg-4 col-md-6">
                         <div class="single-courses-item mb-30">
                             <div class="courses-image">
-                                <a href="single-courses.html"
+                                <a href="https://www.google.com/maps/place/Nuwara+Eliya/@6.9513649,80.7459275,13z/data=!3m1!4b1!4m5!3m4!1s0x3ae380434e1554c7:0x291608404c937d9c!8m2!3d6.9497166!4d80.7891068"
                                 target="black" class="d-block"><img src={nuwara} alt="image"/></a>
                             </div>
 
                             <div class="courses-content">
                                 
 
-                                <h3><a href="single-courses.html"
+                                <h3><a href="https://www.google.com/maps/place/Nuwara+Eliya/@6.9513649,80.7459275,13z/data=!3m1!4b1!4m5!3m4!1s0x3ae380434e1554c7:0x291608404c937d9c!8m2!3d6.9497166!4d80.7891068"
                                 target="black" class="d-inline-block">Explore Ella in Nuwara Eliya</a></h3>
                                 <p>Ella is a small town in the Uva Province. Located on the southern edge of Sri Lanka?s hill country region this small town offers breathless scenery and intimate wildlife. Ella is a 
                                     town that has nothing much to offer except peace, quiet and a good trek through the scenic countryside.
@@ -156,17 +153,12 @@ const Destination = () => {
 
                             <div class="courses-box-footer">
                                 <ul>
-                                    <li class="students-number">
-                                        <i class='bx bx-user'></i> 15 students
+                                   
+                                    <li class="courses-lesso">
+                                        <i class='bx bx-book-open'></i> Central Province
                                     </li>
 
-                                    <li class="courses-lesson">
-                                        <i class='bx bx-book-open'></i> 10 lessons
-                                    </li>
-
-                                    <li class="courses-price">
-                                        $250
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -176,14 +168,14 @@ const Destination = () => {
                     <div class="col-lg-4 col-md-6">
                         <div class="single-courses-item mb-30">
                             <div class="courses-image">
-                                <a href="single-courses.html"
+                                <a href="https://www.google.com/maps/place/Pasikuda+Beach/@7.9324268,81.5686507,15.17z/data=!4m5!3m4!1s0x3afad91bb2638af7:0xe83ecda968bc685c!8m2!3d7.9299939!4d81.5611852"
                                 target="black" class="d-block"><img src={pasi} alt="image"/></a>
                             </div>
 
                             <div class="courses-content">
                                 
 
-                                <h3><a href="single-courses.html"
+                                <h3><a href="https://www.google.com/maps/place/Pasikuda+Beach/@7.9324268,81.5686507,15.17z/data=!4m5!3m4!1s0x3afad91bb2638af7:0xe83ecda968bc685c!8m2!3d7.9299939!4d81.5611852"
                                 target="black" class="d-inline-block">Pasikuda beach</a></h3>
                                 <p>Around thirty-five kilometers northwest of Batticaloa town on the east coast of Sri Lanka lies Pasikuda, a coastal town with a spectacular, blue bay and soft, sandy beaches. The beauty of this town was greatly 
                                     untouched until recently, as the Sri Lankan Civil War kept tourists and local visitors away from this area until the end of the war in 2009. Pasikuda is renowned because of its extended shallow coastline, making it a great spot for sunbathing and shallow swimming.</p>
@@ -191,17 +183,12 @@ const Destination = () => {
 
                             <div class="courses-box-footer">
                                 <ul>
-                                    <li class="students-number">
-                                        <i class='bx bx-user'></i> 15 students
+                                   
+                                    <li class="courses-lesso">
+                                        <i class='bx bx-book-open'></i> Eastren Province
                                     </li>
 
-                                    <li class="courses-lesson">
-                                        <i class='bx bx-book-open'></i> 10 lessons
-                                    </li>
-
-                                    <li class="courses-price">
-                                        $250
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -212,14 +199,14 @@ const Destination = () => {
                     <div class="col-lg-4 col-md-6">
                         <div class="single-courses-item mb-30">
                             <div class="courses-image">
-                                <a href="single-courses.html"
+                                <a href="https://www.google.com/maps/place/Polonnaruwa+Gal+Viharaya/@7.965809,81.0032039,16.17z/data=!4m5!3m4!1s0x3afb4341418e5bb5:0xd772f0272af44375!8m2!3d7.9660522!4d81.0049479"
                                 target="black" class="d-block"><img src={plon} alt="image"/></a>
                             </div>
 
                             <div class="courses-content">
                                 
 
-                                <h3><a href="single-courses.html"
+                                <h3><a href="https://www.google.com/maps/place/Polonnaruwa+Gal+Viharaya/@7.965809,81.0032039,16.17z/data=!4m5!3m4!1s0x3afb4341418e5bb5:0xd772f0272af44375!8m2!3d7.9660522!4d81.0049479"
                                 target="black" class="d-inline-block">Ancient City Of Polonnaruwa</a></h3>
                                 <p>this medieval city, a UNESCO World Heritage Site, rose to fame as the capital (10th ? 12th century AD) after the decline of Anuradhapura. The entire landscape of the region is 
                                     punctuated by huge man-made reservoirs, the most famous of which is the Parakrama Samudra or the Sea of Parakrama, 
@@ -228,17 +215,12 @@ const Destination = () => {
 
                             <div class="courses-box-footer">
                                 <ul>
-                                    <li class="students-number">
-                                        <i class='bx bx-user'></i> 15 students
+                                   
+                                    <li class="courses-lesso">
+                                        <i class='bx bx-book-open'></i> North - Central Province
                                     </li>
 
-                                    <li class="courses-lesson">
-                                        <i class='bx bx-book-open'></i> 10 lessons
-                                    </li>
-
-                                    <li class="courses-price">
-                                        $250
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -249,14 +231,14 @@ const Destination = () => {
                     <div class="col-lg-4 col-md-6">
                         <div class="single-courses-item mb-30">
                             <div class="courses-image">
-                                <a href="single-courses.html"
+                                <a 
                                 target="black" class="d-block"><img src={tea} alt="image"/></a>
                             </div>
 
                             <div class="courses-content">
                                 
 
-                                <h3><a href="single-courses.html"
+                                <h3><a 
                                 target="black" class="d-inline-block">Tea in The Mountains</a></h3>
                                 <p>Proceed to a tea plantation and factory in the mountains where you will have the unique opportunity of joining the famous tea pluckers in picking the signature two leaves and a bud which are later processed for 
                                     consumption around the world. This is a fine art and you will have the chance to learn it from the experts as they pluck these tender buds with precision and speed.</p>
@@ -264,17 +246,12 @@ const Destination = () => {
 
                             <div class="courses-box-footer">
                                 <ul>
-                                    <li class="students-number">
-                                        <i class='bx bx-user'></i> 15 students
-                                    </li>
-
+                                   
                                     <li class="courses-lesson">
-                                        <i class='bx bx-book-open'></i> 10 lessons
+                                        <i class='bx bx-book-open'></i> Central Province
                                     </li>
 
-                                    <li class="courses-price">
-                                        $250
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -284,14 +261,14 @@ const Destination = () => {
                     <div class="col-lg-4 col-md-6">
                         <div class="single-courses-item mb-30">
                             <div class="courses-image">
-                                <a href="single-courses.html"
+                                <a 
                                 target="black" class="d-block"><img src={saradi} alt="image"/></a>
                             </div>
 
                             <div class="courses-content">
                                 
 
-                                <h3><a href="single-courses.html"
+                                <h3><a 
                                 target="black" class="d-inline-block">The Legend of Saradiel
 </a></h3>
                                 <p>Deekirikewagela Saradiyel better known as Uthuwan Kande Soora Saradiyel / Saradiel was aCeylonese hero and bandit in the town of Mawanella who eventually went on to 
@@ -301,17 +278,12 @@ const Destination = () => {
 
                             <div class="courses-box-footer">
                                 <ul>
-                                    <li class="students-number">
-                                        <i class='bx bx-user'></i> 15 students
+                                   
+                                    <li class="courses-lesso">
+                                        <i class='bx bx-book-open'></i> Sabaragamuwa Province
                                     </li>
 
-                                    <li class="courses-lesson">
-                                        <i class='bx bx-book-open'></i> 10 lessons
-                                    </li>
-
-                                    <li class="courses-price">
-                                        $250
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -322,35 +294,21 @@ const Destination = () => {
                     <div class="col-lg-4 col-md-6">
                         <div class="single-courses-item mb-30">
                             <div class="courses-image">
-                                <a href="single-courses.html"
+                                <a 
                                 target="black" class="d-block"><img src={live} alt="image"/></a>
                             </div>
 
                             <div class="courses-content">
                                 
 
-                                <h3><a href="single-courses.html"
+                                <h3><a 
                                 target="black" class="d-inline-block">Live Like A Local</a></h3>
                                 <p>Learn about the intricacies of typical Sri Lankan village lifestyles and culture whilst making a meaningful contribution to the community you visit? 
                                     It is with these concepts that are Tours developed the ‘Live Like a Local’ projects in partnership with individuals from a rural village in Sri Lanka. The financial support and commitment of Tour for Sri Lanka Tours has enabled 
                                     these locals to setup projects which will bring sustainable economic benefit to their communities.</p>
                             </div>
 
-                            <div class="courses-box-footer">
-                                <ul>
-                                    <li class="students-number">
-                                        <i class='bx bx-user'></i> 15 students
-                                    </li>
-
-                                    <li class="courses-lesson">
-                                        <i class='bx bx-book-open'></i> 10 lessons
-                                    </li>
-
-                                    <li class="courses-price">
-                                        $250
-                                    </li>
-                                </ul>
-                            </div>
+                           
                         </div>
                     </div>
 
@@ -375,17 +333,12 @@ const Destination = () => {
 
                             <div class="courses-box-footer">
                                 <ul>
-                                    <li class="students-number">
-                                        <i class='bx bx-user'></i> 15 students
+                                   
+                                    <li class="courses-lesso">
+                                        <i class='bx bx-book-open'></i> Southern Province
                                     </li>
 
-                                    <li class="courses-lesson">
-                                        <i class='bx bx-book-open'></i> 10 lessons
-                                    </li>
-
-                                    <li class="courses-price">
-                                        $250
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -412,17 +365,12 @@ const Destination = () => {
 
                             <div class="courses-box-footer">
                                 <ul>
-                                    <li class="students-number">
-                                        <i class='bx bx-user'></i> 15 students
+                                   
+                                    <li class="courses-lesso">
+                                        <i class='bx bx-book-open'></i> Sabaragamuwa Province
                                     </li>
 
-                                    <li class="courses-lesson">
-                                        <i class='bx bx-book-open'></i> 10 lessons
-                                    </li>
-
-                                    <li class="courses-price">
-                                        $250
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -449,25 +397,31 @@ const Destination = () => {
 
                             <div class="courses-box-footer">
                                 <ul>
-                                    <li class="students-number">
-                                        <i class='bx bx-user'></i> 15 students
+                                   
+                                    <li class="courses-lesso">
+                                        <i class='bx bx-book-open'></i> Central Province
                                     </li>
 
-                                    <li class="courses-lesson">
-                                        <i class='bx bx-book-open'></i> 10 lessons
-                                    </li>
-
-                                    <li class="courses-price">
-                                        $250
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
                     </div>
 
 
+                                        
+                                        
 
-                   
+                    <FloatingWhatsApp
+                                phoneNumber="+94711308121"
+                                        accountName="Sadew Sanjula Anuhas"
+                                        allowClickAway
+                                        notification
+                                        
+                                        notificationSound
+                                        avatar={avatar}
+                                        statusMessage=""
+                                        chatMessage="Hi, How can i help you?"/>
 
                     
 

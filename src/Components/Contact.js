@@ -1,7 +1,9 @@
 import React, { useRef, useState, Component  } from "react";
 
 import emailjs from "@emailjs/browser";
+import FloatingWhatsApp from 'react-floating-whatsapp'
 
+import avatar from '../assests/avatar.jpeg'
 
 
 
@@ -22,7 +24,7 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           console.log("message sent");
-          window.location="/thankyou"
+          alert('Your masseage has been sent successfully!')
         },
         (error) => {
           console.log(error.text);
@@ -41,7 +43,16 @@ const Contact = () => {
 
 <section class="contact-area pb-100">
 
-
+<FloatingWhatsApp
+                                phoneNumber="+94711308121"
+                                        accountName="Sadew Sanjula Anuhas"
+                                        allowClickAway
+                                        notification
+                                        
+                                        notificationSound
+                                        avatar={avatar}
+                                        statusMessage=""
+                                        chatMessage="Hi, How can i help you?"/>
 
 
 
@@ -49,7 +60,7 @@ const Contact = () => {
                 <div class="section-title">
                     <span class="sub-title">Contact Us</span>
                     <h2>Drop us a message</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Drop us a message to know something about us.</p>
                 </div>
 
                 <div class="contact-form">

@@ -1,69 +1,59 @@
 import React, { Component } from 'react';
 
+import { BsInstagram } from 'react-icons/bs';
+import { AiFillFacebook } from 'react-icons/ai';
+import { BsWhatsapp } from 'react-icons/bs';
+
 class Footer extends Component {
     render() {
         return (
             <footer class="footer-area">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="single-footer-widget mb-30">
                     <h3>Contact Us</h3>
 
                     <ul class="contact-us-link">
                         <li>
                             <i class='bx bx-map'></i>
-                            <a href="#" target="_blank">2750 Quadra Street Victoria Road,<br/> New York, USA</a>
+                            <a  target="_blank">No 901/3, Galle Road, Katukurunda,<br/>Kaluthara, Sri Lanka</a>
                         </li>
                         <li>
                             <i class='bx bx-phone-call'></i>
-                            <a href="#">+1 (123) 456 7890</a>
+                            <a href="tel:+94777909154">0777909154</a> / <a href="tel:+94711308121">0711308121</a>
+                            
                         </li>
                         <li>
                             <i class='bx bx-envelope'></i>
-                            <a href="#">hello@raque.com</a>
+                            <a href="mailto:dilshan.kumara34@gmail.com">dilshan.kumara34@gmail.com</a>
                         </li>
                     </ul>
 
                     <ul class="social-link">
-                        <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-facebook'></i></a></li>
-                        <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-twitter'></i></a></li>
-                        <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-instagram'></i></a></li>
-                        <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
-                        <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-pinterest-alt'></i></a></li>
+                        <li><a href="https://www.instagram.com/sadew_sanjula_anuhas/" class="d-block" target="_blank"><BsInstagram/></a></li>
+                        <li><a href="https://www.facebook.com/bugsbunny23456" class="d-block" target="_blank"><AiFillFacebook/></a></li>
+                        <li><a href="//wa.me/+94711308121" class="d-block" target="_blank"><BsWhatsapp/></a></li>
+                        
                     </ul>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="single-footer-widget mb-30">
-                    <h3>Support</h3>
+                    <h3>Connect with us</h3>
 
                     <ul class="support-link">
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">FAQ's</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Terms</a></li>
-                        <li><a href="#">Condition</a></li>
-                        <li><a href="#">Policy</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/carrents">Car Rents</a></li>
+                        <li><a href="/guides">Guide</a></li>
+                        <li><a href="/destinations">Destinations</a></li>
+                        
                     </ul>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-footer-widget mb-30">
-                    <h3>Useful Link</h3>
-
-                    <ul class="useful-link">
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">UI/UX Design</a></li>
-                        <li><a href="#">WP Development</a></li>
-                        <li><a href="#">App</a></li>
-                        <li><a href="#">Whitepaper</a></li>
-                        <li><a href="#">Web Development</a></li>
-                    </ul>
-                </div>
-            </div>
 
             
         </div>
@@ -71,10 +61,8 @@ class Footer extends Component {
 
     <div class="footer-bottom-area">
         <div class="container">
-            <div class="logo">
-                <a href="index.html" class="d-inline-block"><img src="assets/img/logo.png" alt="image"/></a>
-            </div>
-            <p><i class='bx bx-copyright'></i>2021 <a href="index.html" target="_blank"></a> Designed By <a href="https://envytheme.com/" target="_blank">aaaaaa</a> | All rights reserved.</p>
+           
+            <p><i class='bx bx-copyright'></i>2022 | Designed By <a href="https://www.facebook.com/akalanka.withanage.5/" target="_blank">Pasan Withanage</a></p>
         </div>
     </div>
 </footer>
