@@ -8,7 +8,13 @@ import cover2 from '../assests/ella-4-sri-lanka (1).jpg'
 
 import { Link } from "react-router-dom";
 
-import { Carousel } from 'antd';
+import { AiFillCar } from 'react-icons/ai';
+import { IoIosCloudyNight } from 'react-icons/io';
+import { FaRegCommentDots } from 'react-icons/fa';
+
+import { GiReceiveMoney } from 'react-icons/gi';
+import { TbMessageLanguage } from 'react-icons/tb';
+import { IoShuffle } from 'react-icons/io5';
 
 
 
@@ -63,9 +69,9 @@ function Home() {
     </div>
    
     <div class="col-lg-6 col-md-12">
-        <div class="about-right-image">
-            <img src={cover} alt="image"/>
-            <img src={cover2} alt="image"/>
+        <div class="about-right-imag">
+            <img src={cover} className="home-image" alt="image"/>
+            
 
             {/* <div class="text-box">
                 <div class="inner">
@@ -97,7 +103,7 @@ function Home() {
     <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="services-box">
             <div class="icon">
-                <i class="flaticon-analytics"></i>
+              <AiFillCar/>
             </div>
             <h3>Qualified Drivers and Staff</h3>
             <p>Our large fleet of vehicles includes luxury and mini coaches, vans, cars and even limousines that operate 24 hours. Our drivers are friendly and well trained. Furthermore our expert local tour guides have extensive knowledge on an array of destinations and will share with you inside knowledge and firsthand experience on every location making your tour an ultimate one.</p>
@@ -107,7 +113,7 @@ function Home() {
     <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="services-box">
             <div class="icon">
-                <i class="flaticon-anywhere"></i>
+            <IoIosCloudyNight/>
             </div>
             <h3>24/7 Support</h3>
             <p>Our customer service isn’t time bound. Travel agents at Tours for Sri lanka are always ready to serve you at anytime. Reach us at anytime of the day and you’re sure to be guided by our friendly travel consultants with effective solutions to your travel problems.</p>
@@ -117,7 +123,7 @@ function Home() {
     <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="services-box">
             <div class="icon">
-                <i class="flaticon-graduated"></i>
+            <FaRegCommentDots/>
             </div>
             <h3>Instant Response</h3>
             <p>At Tours for Sri lanka we value time as much as you do. We dislike disappointing you with delays and forgotten inquiries which is why we strive to offer a service with instant response to your needs. From day one till your travel is complete and your feedback is heard we are in touch with you making sure everything you wanted your trip to be is just in their right places.</p>
@@ -127,7 +133,7 @@ function Home() {
     <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="services-box">
             <div class="icon">
-                <i class="flaticon-self-improvement"></i>
+            <GiReceiveMoney/>
             </div>
             <h3>Value for Money</h3>
             <p>We don’t believe in a job half done. It’s not in our policies. We dig into the very last detail to make sure that our service is perfect. Travelling with Tours for Sri lanka will create an experience which you will treasure, a service with unmatched quality and a journey worth your money.</p>
@@ -137,7 +143,7 @@ function Home() {
     <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="services-box">
             <div class="icon">
-                <i class="flaticon-padlock"></i>
+            <TbMessageLanguage/>
             </div>
             <h3>Languages and culture</h3>
             <p>At Tours for Sri lanka Communicating is made simple since personalized service to our clients are offered by multilingual customer service agents with language proficiency in English, Japanese, Chinese, German, Russian, Arabic, French and Spanish. This ensures that with no doubt what is asked for is delivered.</p>
@@ -147,7 +153,7 @@ function Home() {
     <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="services-box">
             <div class="icon">
-                <i class="flaticon-launch"></i>
+            <IoShuffle/>
             </div>
             <h3>Flexibility</h3>
             <p>Our success story lies in offering our clients an itinerary that they find satisfaction in. This makes us open to be flexible and independent to listen to our customers requirements and plan accordingly. We see as to how we can use our expertise to tailor make something that you entrust that we can do.</p>

@@ -3106,8 +3106,7 @@ About CSS
 
 .about-image {
   position: relative;
-  padding-right: 100px;
-  padding-bottom: 50px;
+ 
 }
 
 .about-image img {
@@ -3189,11 +3188,17 @@ About CSS
   padding-right: 15px;
 }
 
+.home-image{
+  margin-top: 134px;
+  border-radius: 10px;
+}
+
 .about-right-image {
   position: relative;
   text-align: right;
-  padding-left: 100px;
-  padding-bottom: 60px;
+  padding-right: 58px;
+  padding-top: 123px;
+ 
 }
 
 .about-right-image img:nth-child(2) {
