@@ -101,6 +101,13 @@ function Home() {
 
 
 <section class="gallery-area pt-100 pb-70">
+
+<div class="section-title">
+                    <span class="sub-title">Ayubowan!</span>
+                    <h2>Enjoy the Natural Beauty</h2>
+                    <p>of Sri Lanka</p>
+                </div>
+
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
