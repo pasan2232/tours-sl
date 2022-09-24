@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import { BsInstagram } from 'react-icons/bs';
 import { AiFillFacebook } from 'react-icons/ai';
 import { BsWhatsapp } from 'react-icons/bs';
 
-class Footer extends Component {
-    render() {
-        return (
-            <footer class="footer-area">
+function Footer(props) {
+    return (
+        <footer class="footer-area">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -66,8 +65,7 @@ class Footer extends Component {
         </div>
     </div>
 </footer>
-        );
-    }
+    );
 }
 
 export default Footer;

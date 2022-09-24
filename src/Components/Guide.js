@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import FloatingWhatsApp from 'react-floating-whatsapp'
 
@@ -33,10 +33,9 @@ import i01 from '../assests/Happy/1.jpeg';
 import i02 from '../assests/Happy/2.jpeg';
 import i04 from '../assests/Happy/4.jpeg';
 
-class Guide extends Component {
-    render() {
-        return (
-            <div>
+function Guide(props) {
+    return (
+        <div>
                 <section class="courses-area ptb-100">
             <div class="container">
                 
@@ -193,8 +192,7 @@ class Guide extends Component {
             </div>
         </section>
             </div>
-        );
-    }
+    );
 }
 
 export default Guide;
