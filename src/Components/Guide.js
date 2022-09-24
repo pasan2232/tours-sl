@@ -100,9 +100,9 @@ function Guide(props) {
         </section>
 
                      <div class="section-title">
-                    <span class="sub-title">WITH US</span>
+                   
                     <h3>Happy Momments !</h3>
-                    
+                    <span class="sub-title">WITH US</span>
                 </div>
 
 

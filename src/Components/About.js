@@ -28,8 +28,9 @@ function About(props) {
 
                 <div class="col-lg-6 col-md-12">
                     <div class="about-content">
-                        <span class="sub-title">About Us</span>
+                        
                         <h2>Sadew Tours</h2>
+                        <span class="sub-title">About Us</span>
                         <p>Travel is the main thing you purchase that makes you more extravagant”.
                              We, at SADEW TOURS, swear by this and put stock in satisfying travel dreams that make you perpetually rich constantly.</p>
                         <p>We have been moving excellent encounters for a considerable length of time through our cutting edge planned occasion bundles and other fundamental travel administrations. We rouse our clients to carry on with a rich life, brimming with extraordinary travel encounters.

@@ -3,16 +3,17 @@ import React from 'react';
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 
+import logo from '../assests/logo/Logo.png'
 
 function Header(props) {
   return (
     <div>
     <Navbar bg="light" expand="lg">
       <Container>
-      {/* <LinkContainer to="/">
-          <Navbar.Brand>aaaa</Navbar.Brand>
+      <LinkContainer to="/">
+          <Navbar.Brand><img src={logo} alt="logo" /></Navbar.Brand>
         </LinkContainer>
-         */}
+        
         <LinkContainer to="/">
           <Navbar.Brand>  <div class="section-titl">
                     
@@ -23,22 +24,22 @@ function Header(props) {
        
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="mr-auto"><hr/>
           <LinkContainer to="/destinations">
               <Nav.Link>Destinations</Nav.Link>
-            </LinkContainer>
+            </LinkContainer><hr/>
              <LinkContainer to="/carrents">
               <Nav.Link>Car Rents</Nav.Link>
-            </LinkContainer>
+            </LinkContainer><hr/>
             <LinkContainer to="/guides">
               <Nav.Link>Tours</Nav.Link>
-            </LinkContainer>
+            </LinkContainer><hr/>
             <LinkContainer to="/contact">
               <Nav.Link>Contact Us</Nav.Link>
-            </LinkContainer>
+            </LinkContainer><hr/>
             <LinkContainer to="/about">
               <Nav.Link>About Us</Nav.Link>
-            </LinkContainer>
+            </LinkContainer><hr/>
           </Nav>
 
         </Navbar.Collapse>
