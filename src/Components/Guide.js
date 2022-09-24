@@ -58,13 +58,14 @@ function Guide(props) {
 
                         <div class="col-lg-8 col-md-7">
                             <div class="profile-content">
-                                <h2>Mr. Sadew Sanjula Anuhas</h2>
+                            <h2>Mr. Sadew Sanjula Anuhas</h2>
+                                <h5>- Professional Tour Guide -</h5><br/>
                                
 
                                 <ul class="contact-info">
-                                <h5><li> <GrLocation/><a > : No 901/3, Galle Road,Katukurunda, Kalutara.</a></li></h5><br/>
-                                <h5><li> <AiOutlineMail/><a href="mailto:dilshan.kumara34@gmail.com">: dilshan.kumara34@gmail.com</a></li></h5>    <br/>
-                                <h5><li> <AiOutlinePhone/><a href="tel:+94777909154">:  0777909154</a> / <a href="tel:+94711308121">0711308121</a></li></h5>  
+                                <h5><li> <GrLocation/> :  <a > No 901/3, Galle Road,Katukurunda, Kalutara.</a></li></h5><br/>
+                                <h5><li> <AiOutlineMail/> :  <a href="mailto:dilshan.kumara34@gmail.com">dilshan.kumara34@gmail.com</a></li></h5>    <br/>
+                                <h5><li> <AiOutlinePhone/> :  <a href="tel:+94777909154"> 0777909154</a> / <a href="tel:+94711308121">0711308121</a></li></h5>  
                                 
                                 </ul>
 
