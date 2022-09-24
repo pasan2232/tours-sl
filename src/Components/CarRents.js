@@ -51,7 +51,7 @@ const CarRent = () => {
                                     
                                     <li><a>CBG - 5695</a></li>
                                 </ul>
-                                <h3><a href="//wa.me/+94711308121" class="d-inline-block">Most Popular Education Posts Of The Week 20-26 Aug</a></h3>
+                                <h3><a href="//wa.me/+94711308121" class="d-inline-block">Honda CIVIC Sport</a></h3>
                                 <a href="//wa.me/+94711308121" class="read-more-btn">Contact Us<i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ const CarRent = () => {
                                     
                                     <li><a>PD - 0437</a></li>
                                 </ul>
-                                <h3><a href="//wa.me/+94711308121" class="d-inline-block">Most Popular Education Posts Of The Week 20-26 Aug</a></h3>
+                                <h3><a href="//wa.me/+94711308121" class="d-inline-block">KDH HIACE</a></h3>
                                 <a href="//wa.me/+94711308121" class="read-more-btn">Contact Us<i class='bx bx-right-arrow-alt'></i></a>
                             </div>
                         </div>

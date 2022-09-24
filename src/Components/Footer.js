@@ -4,6 +4,8 @@ import { BsInstagram } from 'react-icons/bs';
 import { AiFillFacebook } from 'react-icons/ai';
 import { BsWhatsapp } from 'react-icons/bs';
 
+import { Link } from "react-router-dom";
+
 function Footer(props) {
     return (
         <footer class="footer-area">
@@ -43,11 +45,12 @@ function Footer(props) {
                     <h3>Connect with us</h3>
 
                     <ul class="support-link">
-                        <li><a href="/contact">Contact Us</a></li>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/carrents">Car Rents</a></li>
-                        <li><a href="/guides">Guide</a></li>
-                        <li><a href="/destinations">Destinations</a></li>
+                    <li><Link to="/contact">Contact Us</Link></li>
+                        <li><Link to="/">Home</Link></li> 
+                        <li><Link to="/carrents">Car Rents</Link></li>
+                        <li><Link to="/guides">Guide</Link></li>
+                        <li><Link to="/destinations">Destinations</Link></li>
+
                         
                     </ul>
                 </div>

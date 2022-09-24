@@ -6,20 +6,29 @@ import avatar from '../assests/avatar.jpeg'
 import cover from '../assests/yala-natinal-park-sri-lanka-scaled.jpg';
 import cover2 from '../assests/ella-4-sri-lanka (1).jpg'
 
+import { Carousel } from 'antd';
 
 
 
-function Home(props) {
+
+function Home() {
+
+    
+
+
     return (
         <div>
 
 
-            
 
 
         <section class="about-area pt-100">
 <div class="container-fluid">
 <div class="row align-items-center">
+    
+
+
+
     <div class="col-lg-6 col-md-12">
         <div class="about-content left-content">
             
@@ -27,22 +36,23 @@ function Home(props) {
 
             <h4>The Pearl of the Indian Ocean</h4><br/>
             <p>Despite being a relatively small island, Sri Lanka is endowed with a diverse collection of landscapes, 
-                climates and natural features. Sri Lanka’s infamous beaches have been enticing visitors for many years. However, the rest of 
-                the island harbours many more idyllic vistas.
+                    climates and natural features. Sri Lanka’s infamous beaches have been enticing visitors for many years. However, the rest of 
+                    the island harbours many more idyllic vistas.
 
-The central highlands are carpeted with emerald tea plantations interspersed with occasional waterfalls. 
-Cool climates, misty views, and quaint estate bungalows are a throwback to bygone eras.
+                    The central highlands are carpeted with emerald tea plantations interspersed with occasional waterfalls. 
+                    Cool climates, misty views, and quaint estate bungalows are a throwback to bygone eras.
 
-The cultural triangle in the centre of the island holds a certain magic, with ruins from several ancient kingdoms, majestic 
-tanks, hidden rock caves, and ancient sacred temples, revealing the fascinating and almost unbelievable ancient architecture, art, and engineering.
+                    The cultural triangle in the centre of the island holds a certain magic, with ruins from several ancient kingdoms, majestic 
+                    tanks, hidden rock caves, and ancient sacred temples, revealing the fascinating and almost unbelievable ancient architecture, art, and engineering.
 
-The North of Sri Lanka is a vibrant concoction of essences, with a unique flavour and culture. Despite still bearing the scars 
-from the civil war, the north truly bears testament to the diversity and variation that comprises the island. Influences include Portuguese, 
-Dutch, Tamil, Muslim, and British characters. Chains of islands are scattered off the shoreline, with their own unique habitats, waiting to be explored.
+                    The North of Sri Lanka is a vibrant concoction of essences, with a unique flavour and culture. Despite still bearing the scars 
+                    from the civil war, the north truly bears testament to the diversity and variation that comprises the island. Influences include Portuguese, 
+                    Dutch, Tamil, Muslim, and British characters. Chains of islands are scattered off the shoreline, with their own unique habitats, waiting to be explored.
 
-The east of the island is home to lush paddy fields, spectacular sunrises, and a quieter more rural pace of life. Colourful places of worship, 
-national parks, ports and harbours, and pristine clear waters offer a mellow experience to any weary traveller.</p>
-            
+                    The east of the island is home to lush paddy fields, spectacular sunrises, and a quieter more rural pace of life. Colourful places of worship, 
+                    national parks, ports and harbours, and pristine clear waters offer a mellow experience to any weary traveller.
+            </p>
+                            
             
         </div>
 
