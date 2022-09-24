@@ -6,6 +6,8 @@ import avatar from '../assests/avatar.jpeg'
 import cover from '../assests/yala-natinal-park-sri-lanka-scaled.jpg';
 import cover2 from '../assests/ella-4-sri-lanka (1).jpg'
 
+import { Link } from "react-router-dom";
+
 import { Carousel } from 'antd';
 
 
@@ -154,8 +156,8 @@ function Home() {
 
     <div class="col-lg-12 col-md-12 col-sm-12">
         <div class="services-btn">
-            <a href="/destinations" class="default-btn"><i class='bx bx-user-circle icon-arrow before'></i><span class="label">Your Next Destination</span>
-            <i class="bx bx-user-circle icon-arrow after"></i></a>
+        <Link to="/destinations" class="default-btn"><i class='bx bx-user-circle icon-arrow before'></i><span class="label">Your Next Destination</span>
+            <i class="bx bx-user-circle icon-arrow after"></i></Link>
         </div>
     </div>
 </div>

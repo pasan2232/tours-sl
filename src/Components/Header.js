@@ -9,9 +9,18 @@ function Header(props) {
     <div>
     <Navbar bg="light" expand="lg">
       <Container>
-        <LinkContainer to="/">
-          <Navbar.Brand> <b>SADEW TOURS</b> </Navbar.Brand>
+      {/* <LinkContainer to="/">
+          <Navbar.Brand>aaaa</Navbar.Brand>
         </LinkContainer>
+         */}
+        <LinkContainer to="/">
+          <Navbar.Brand>  <div class="section-titl">
+                    
+                    <h2>SADEW TOURS</h2>
+                    
+                </div> </Navbar.Brand>
+        </LinkContainer>
+       
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
@@ -34,9 +43,7 @@ function Header(props) {
 
         </Navbar.Collapse>
         
-        {/* <LinkContainer to="/">
-          <Navbar.Brand>  </Navbar.Brand>
-        </LinkContainer> */}
+      
       </Container>
     </Navbar>
   </div>
