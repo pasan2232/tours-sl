@@ -6,6 +6,7 @@ import avatar from '../assests/avatar.jpeg'
 import cover from '../assests/yala-natinal-park-sri-lanka-scaled.jpg';
 import cover1 from '../assests/hummanaya-sri-lanka (1).jpg';
 import cover2 from '../assests/Kima_Surf_Home_Seminyak_Surf_Camp_2 (1).jpg'
+import sigi from '../assests/destinations/Sigi (1).jpg'
 
 import h1 from '../assests/home/1.jpeg'
 import h2 from '../assests/home/2.jpeg'
@@ -15,6 +16,9 @@ import h5 from '../assests/home/5.jpeg'
 import h6 from '../assests/home/6.jpeg'
 import h7 from '../assests/home/7.jpeg'
 import h8 from '../assests/home/8.jpeg'
+
+import yala from '../assests/home/yala.jpeg'
+import tang from '../assests/home/tang.jpeg'
 
 import { Link } from "react-router-dom";
 
@@ -110,23 +114,7 @@ function Home() {
 
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-gallery-item mb-30">
-                            <img src={h1} alt="Gallery Image" />
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-gallery-item mb-30">
-                            <img src={h7} alt="Gallery Image"/>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-gallery-item mb-30">
-                            <img src={h2} alt="Gallery Image" />
-                        </div>
-                    </div>
+                    
 
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-gallery-item mb-30">
@@ -156,6 +144,118 @@ function Home() {
         </section>
 
 
+        
+
+
+
+       
+    
+<div class="section-title">
+                    <span class="sub-title">Explore Sri Lanka</span>
+                    <h2>Places you always will like</h2>
+                    <p>of Sri Lanka</p>
+                </div>
+
+
+
+   
+
+
+
+        
+        <section class="about-area pt-100">
+<div class="container-fluid">
+<div class="row align-items-center">
+    
+
+
+
+    <div class="col-lg-6 col-md-12">
+        <div class="about-content left-content">
+            
+         
+
+            <h4>Kayaking Along Tangalle Lagoon</h4><br/>
+            <p>Kayaking along Tangalle Lagoon is one of the more adventurous things to do in Tangalle when you stay with us at Taru Villas. 
+                The vast lagoon allows you to venture to some of the prime wilderness spots in the southern coast, as you witness exotic flora and fauna, 
+                along with some unique sceneries. This experience can be enjoyed no matter who you’re travelling with, whether it’s your partner or your family and kids.
+            </p>
+                            
+            
+        </div>
+
+        
+        
+    </div>
+   
+    <div class="col-lg-6 col-md-12">
+        <div class="about-right-imag">
+            <img src={tang} className="home-image2" alt="image"/>
+            
+
+            {/* <div class="text-box">
+                <div class="inner">
+                    Trusted By
+                    <span>75K+</span>
+                </div>
+            </div> */}
+
+            
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+<section class="about-area pt-100">
+<div class="container-fluid">
+<div class="row align-items-center">
+    
+
+
+
+    <div class="col-lg-6 col-md-12">
+        <div class="about-content left-content">
+            
+         
+
+            <h4>Yala Safari</h4><br/>
+            <p>"Yala National Park is a perfect getaway for a complete change of scenery from your daily lifestyle.Reputed as the national park with the highest 
+                concentration of leopards in Sri Lanka, these lazy yet ferocious predators are the main highlight of a Yala Safari.
+                 Your tour starts from Tissamaharama and we can arrange pickup from any location based in Kataragama, Tissamaharama, Palatupana and Yala. 
+                 You can choose from a 3 hour morning/evening tour or a 12 hour full day tour to spend time exploring the wildlife inside the park"
+            </p>
+                            
+            
+        </div>
+
+        
+        
+    </div>
+   
+    <div class="col-lg-6 col-md-12">
+        <div class="about-right-imag">
+            <img src={yala} className="home-image2" alt="image"/>
+            
+
+            {/* <div class="text-box">
+                <div class="inner">
+                    Trusted By
+                    <span>75K+</span>
+                </div>
+            </div> */}
+
+            
+        </div>
+    </div>
+</div>
+</div>
+</section>
 
 
 
@@ -216,58 +316,6 @@ function Home() {
 </div>
 </div>
 </section>
-
-
-<section class="about-area pt-100">
-<div class="container-fluid">
-<div class="row align-items-center">
-    
-
-
-
-    <div class="col-lg-6 col-md-12">
-        <div class="about-content left-content">
-            
-         
-
-            <h4>The Kima Surf yoga & fitness resort Hiriketiya</h4><br/>
-            <p>The Kima Surf yoga & fitness resort Hiriketiya is conveniently positioned in a lush, green tropical environment, your new secure and comfortable eco-luxury home away from home. 
-                Chilling will come natural in the natural jungle surroundings whilst you 
-                guiltlessly indulge yourself in Kima’s newest eco-friendly resort, our surf camp in Hiriketiya.
-                The camp is situated near the famous Hiriketiya Bay and one of the most stunning surf beaches on Sri Lanka’s south coast. The waves are perfect for beginners to intermediates. 
-                More advanced, uncrowded waves are 
-                merely a brief Tuk Tuk ride away.Surfing is at the heart of Kima and our program, team and top-of-the-range equipment are unparalleled. Our add-on fitness programs compliment the
-                 surfing and our breezy training center overlooking the pool is the 
-                perfect space to learn and practice those important surf specific stretches.
-            </p>
-                            
-            
-        </div>
-
-        
-        
-    </div>
-   
-    <div class="col-lg-6 col-md-12">
-        <div class="about-right-imag">
-            <img src={cover2} className="home-image2" alt="image"/>
-            
-
-            {/* <div class="text-box">
-                <div class="inner">
-                    Trusted By
-                    <span>75K+</span>
-                </div>
-            </div> */}
-
-            
-        </div>
-    </div>
-</div>
-</div>
-</section>
-
-
 
 
 
