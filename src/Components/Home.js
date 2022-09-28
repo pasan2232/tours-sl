@@ -8,14 +8,14 @@ import cover1 from '../assests/hummanaya-sri-lanka (1).jpg';
 import cover2 from '../assests/Kima_Surf_Home_Seminyak_Surf_Camp_2 (1).jpg'
 import sigi from '../assests/destinations/Sigi (1).jpg'
 
-import h1 from '../assests/home/1.jpeg'
+
 import h2 from '../assests/home/2.jpeg'
 import h3 from '../assests/home/3.jpeg'
-import h4 from '../assests/home/4.jpeg'
+import h4 from '../assests/home/9.jpeg'
 import h5 from '../assests/home/5.jpeg'
 import h6 from '../assests/home/6.jpeg'
 import h7 from '../assests/home/7.jpeg'
-import h8 from '../assests/home/8.jpeg'
+import h8 from '../assests/home/13.jpeg'
 
 import yala from '../assests/home/yala.jpeg'
 import tang from '../assests/home/tang.jpeg'
